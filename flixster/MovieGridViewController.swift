@@ -18,8 +18,8 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //collectionView.delegate = self
-        //collectionView.dataSource = self
+        collectionView.delegate = self
+        collectionView.dataSource = self
         // Do any additional setup after loading the view.
         // Do any additional setup after loading the view.
         let url = URL(string: "https://api.themoviedb.org/3/movie/297762?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
