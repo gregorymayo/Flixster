@@ -33,6 +33,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 
                 self.movies = dataDictionary["results"] as! [[String:Any]]
+                self.collectionView.reloadData()
                 print(self.movies)
             }
         }
