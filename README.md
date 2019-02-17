@@ -14,7 +14,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
-<img src="https://i.imgur.com/Bz8fCYu.gifv" width=250><br>
+<img src="https://i.imgur.com/Bz8fCYu.gif" width=250><br>
 
 ### Notes
 I sometimes litlle bit confused when I tried to build the UIview controller and Pageview controller. However, after following some steps and done some research, it helps me to a better understanding.
